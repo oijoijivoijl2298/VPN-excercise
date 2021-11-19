@@ -1,0 +1,12 @@
+we were searching for different instructions on the web and used this one because of the simplicity.
+https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-centos-7
+at the end we did not succeed in setting up the server.
+some of the problems we encountered were:
+1. In the sandbox environment the instance good not be reached by its public ip. 
+2. We had to create and use own keys.
+3. We only could connect using its dns name.
+4. We did install the firewalld while this was unnessary. The server / instance is protected by the securitygroup in our VPC.
+5. We did not sufficently tag our instances so one team member was trying to terminate them while another member was busy launcing it.
+6. We did finally use the sandbox environement of the canvas instead of the Techgrounds.edu. aws.
+Finally we understand the concept of setting up the vpn server and tunneling the trafic between remote machines.
+As a final thought we concluded AWS own vpn service is prefered because that is managed.
